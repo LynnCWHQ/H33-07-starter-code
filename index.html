@@ -22,10 +22,11 @@
 
         <div class="index">
             <h3>Index</h3>
-            <p><button id="oak">Oak</button></p>
+            <p><button id="acacia">Acacia</button></p>
             <p><button id="beech">Beech</button></p>
             <p><button id="cherry">Cherry</button></p>
-
+            <p><button id="oak">Oak</button></p>
+                    
         </div>
         <div class="content">
             <iframe id="i_content" src="oak_content.html"
@@ -53,6 +54,16 @@
         $("#beech").click(function(){
             $("#i_content").attr("src","beech_content.html");
             $("#i_summary").attr("src","beech_summary.html");
+
+        })
+        $("#cherry").click(function(){
+            $("#i_content").attr("src","cherry_content.html");
+            $("#i_summary").attr("src","cherry_summary.html");
+
+        })
+        $("#acacia").click(function(){
+            $("#i_content").attr("src","acacia_content.html");
+            $("#i_summary").attr("src","acacia_summary.html");
 
         })
 
